@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+    run:
+      image: "etl-job"
+      volumes:
+        - .:/app
+      command: python3 main.py
